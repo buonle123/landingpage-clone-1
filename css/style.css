@@ -1,0 +1,366 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Header */
+header {
+  background-color: #e6f0ff;
+}
+.frame-page {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px 10px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav > a {
+  text-decoration: none;
+  color: #4f5361;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.header-logo > a {
+  color: #000228;
+  font-weight: 550;
+  font-size: 28px;
+}
+.nav-left {
+  display: flex;
+}
+.nav-right {
+  display: flex;
+}
+.header-sign:first-child > a {
+  color: #0f1b4c;
+}
+.header-sign:last-child > a {
+  color: #fff;
+}
+.bg-text {
+  background-color: #0f1b4c;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-sign {
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}
+/* Welcome  */
+#welcome-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 25px;
+}
+
+.welcome-right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.welcome-right span:first-child {
+  color: #687690;
+  font-size: 18px;
+}
+.welcome-right h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.welcome-right p {
+  color: #687690;
+  font-size: 18px;
+}
+.welcome-right .bg-text {
+  color: #fff;
+  height: 50px;
+  width: 170px;
+  padding: 25px 20px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 0;
+}
+/* fame page */
+#fame-page > .frame-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.fame-page-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fame-right p:first-child {
+}
+.star {
+  font-size: 24px;
+  color: gold;
+}
+.fame-left h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.fame-right p {
+  margin-bottom: 15px;
+}
+.fame-left span {
+  color: #7d8589;
+  font-size: 16px;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* guide working */
+#guide-work {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 75px 0;
+}
+.guide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.guide-content h2 {
+  font-size: 35px;
+}
+.guide-content p {
+  color: #5a6473;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+.guide-working {
+  display: flex;
+  justify-content: space-between;
+}
+.guide-working > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-working > div > a:last-child {
+  color: #0689ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#guide-work > .bg-text {
+  height: 50px;
+  width: 170px;
+  text-align: center;
+  line-height: 3;
+  align-self: center;
+}
+
+/* featured properties */
+
+#featured {
+  background-color: #f5fafe;
+  padding: 50px 0;
+  margin: 25px 0;
+}
+.view-more {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+#featured > .frame-page > h2 {
+  font-size: 35px;
+}
+.view-more > span {
+  color: #5a6473;
+  font-size: 16px;
+}
+.view-more > a {
+  color: #0689ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.featured-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.card-content {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.card-content > h3 {
+  align-self: center;
+}
+.card-status {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-status > span {
+  color: #4d4d52;
+}
+
+.card-status > span > i {
+  color: #0689ff;
+}
+/* featured 2 */
+#featured2 > .frame-page > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#featured2 > .frame-page > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#featured2 > .frame-page > div > div:first-child {
+  position: relative;
+}
+
+#featured2 > .frame-page > div > div > h3 {
+  font-size: 35px;
+}
+#featured2 > .frame-page > div > div > p {
+  font-size: 16px;
+  color: #5a6473;
+}
+.card-abs {
+  height: 282px;
+  width: 259px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.avt-top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.avt-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.avt-top > div {
+  display: flex;
+}
+.avt-bottom > div {
+  display: flex;
+}
+
+.avt-top > div > img {
+  margin-left: 0px;
+}
+.avt-bottom > div > img {
+  margin-left: 0px;
+}
+.avt-top > div > img {
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  margin-left: -36px;
+}
+.avt-bottom > div > img {
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  margin-left: -36px;
+}
+.group-avatar > div:last-child {
+  margin-left: 30px;
+}
+.featured2-parameter {
+  position: relative;
+  top: -180px;
+}
+.featured2-parameter > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.featured2-parameter > div > h2 {
+  font-size: 64px;
+}
+.featured2-parameter > div > span {
+  font-size: 18px;
+  color: #7b8087;
+}
+/* sletter */
+
+#sletter > div {
+  background-color: #063183;
+  height: 350px;
+  border-radius: 25px;
+}
+/* footer */
+footer > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div > div > div > h3 {
+  margin-bottom: 15px;
+}
+footer > div > div > div > p {
+  color: #7a7a7e;
+  font-size: 16px;
+  margin: 25px 0;
+}
